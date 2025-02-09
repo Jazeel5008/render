@@ -9,12 +9,12 @@ environment:
 
 dependencies:
   ffmpeg_kit_flutter_https_gpl: 6.0.0
-  provider: any
+  provider: ^6.1.2
   flutter:
     sdk: flutter
-  path_provider: any
-  rich_console: any
-  uuid: any
+  path_provider: ^2.1.5
+  rich_console: ^1.0.7+2
+  uuid: ^4.5.1
 
 dev_dependencies:
   flutter_test:
