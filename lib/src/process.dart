@@ -27,8 +27,7 @@ abstract class RenderProcessor<T extends RenderFormat> {
     }
     _processing = true;
     try {
-      final output =
-          await _processTask(session.format.processShare);
+      final output = await _processTask(session.format.processShare);
       session.recordResult(output);
       _processing = false;
     } on RenderException catch (error) {
